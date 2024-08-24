@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: sans-serif; */
+}
+body {
+    background-image: url(../img/images.jfif);
+    background-size: cover;
+}
+table {
+    /* margin: auto;
+    margin-top: 20px;
+    width: 80%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px; */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    width: 70%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 20px;
+    background-color: white;
+    border-collapse: collapse;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+th {
+    text-align: left;
+}
+th, td {
+    padding: 10px;
+}
+td img {
+    width: 36px;
+    height: 36px;
+    margin-right: .5rem;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+tbody tr:nth-child(even) {
+    background-color: lightgray;
+}
+tbody tr:nth-child(odd) {
+    background-color: lightblue;
+}
+.delivered {
+    background-color: green;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 20px;
+    color: white;
+}
+.cancelled {
+    background-color: tomato;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 20px;
+    color: white;
+}
+.shipped {
+    background-color: aqua;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+.pending {
+    background-color: orange;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    color: white;
+}
